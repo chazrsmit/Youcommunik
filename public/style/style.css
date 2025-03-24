@@ -131,29 +131,50 @@ h3 {
 /* section 1 */
 
 .section1-partie2 {
-    border: solid rgb(0, 0, 0) 2px;
     display: flex;
     gap:20px;
 }
 
 .section1-partie2 .img-type1 {
     flex:1;
-    border:black 1px solid;
     display: flex;
     justify-content: end;
 }
 
 .section1-partie2 .p-type1 {
     flex:1;
-    border:black 1px solid;
 
 }
 
 .section1-partie2 .p-type1 p {
     font-size: 15px;
-    border: solid black 1px;
     margin: 30px;
     margin-right:160px;
+}
+
+br {
+    font-size: 200%;
+    display: block;
+    content: "";
+    margin:10px;
+}
+
+.section1 .p-type1 {
+    display: flex;
+    align-items: center;
+}
+
+.section1 .titre-type1 {
+    display: flex;
+    justify-content: center;
+}
+
+.section1 .titre-type1 h2 {
+    font-size: 35px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color: #334d5c;
+    color:white;
 }
 
 /* fin section 1 */
