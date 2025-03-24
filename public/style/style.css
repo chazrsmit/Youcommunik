@@ -1,17 +1,20 @@
+
 body {
     margin:0px;
 }
 
+/* nav */
+
 nav {
     display: flex;
-    height: 15vh;
+    height: 12.5vh;
     background-color: #1a1a1d;
     justify-content: space-between;
 }
 
 .logo {
-    width: 350px;
-    border:white 2px solid;
+    width: 280px;
+    /* border:white 2px solid; */
     position: relative;
     display: flex;
     justify-content: left;
@@ -19,7 +22,7 @@ nav {
 }
 
 .logo img {
-    width: fit-content;
+    width:220px;
     padding: 10px;
     position: absolute;
 }
@@ -27,25 +30,44 @@ nav {
 nav div {
     display: flex;
     justify-content: space-between;
+    margin-right: 10px;
+    /* border: white solid 2px; */
 }
 
 .navbar {
     display: flex;
-    gap: 40px;
+    gap: 20px;
     padding:10px;
     justify-content: space-evenly;
+    /* border:white solid 2px; */
+    align-items: center;
 }
 
 .icon {
     display:flex;
     flex-direction: column;
     align-items: center;
+    height: 8.3vh;
+    gap:-10;
 }
 
 .icon img {
-    width:fit-content;
+    width:3vw;
 }
 
 .icon p {
     color:white;
+    font-family: "Ubuntu";
+    font-size: 12px;
 }
+
+/* fin nav */
+
+/* header */
+
+header {
+    background-color: #334d5c;
+    height:26vh;
+}
+
+/* fin header */
