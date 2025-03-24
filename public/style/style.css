@@ -36,7 +36,7 @@ nav div {
 
 .navbar {
     display: flex;
-    gap: 20px;
+    gap: 30px;
     padding:10px;
     justify-content: space-evenly;
     /* border:white solid 2px; */
@@ -68,6 +68,36 @@ nav div {
 header {
     background-color: #334d5c;
     height:26vh;
+    display: flex;
 }
 
+.logo-header {
+    border:white solid 2px;
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-header img {
+    width:10vw;
+    border:white solid 2px;
+}
+
+.textes-header {
+    border: white solid 2px;
+    flex:2;
+}
+
+h1 {
+    font-family: "Ubuntu";
+    font-size: 40px;
+    color:white;
+    font-weight: 300;
+}
+
+h3 {
+    font-family: "Ubuntu";
+
+}
 /* fin header */
