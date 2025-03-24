@@ -166,7 +166,7 @@ h3 {
     align-items: start;
     height: 28vh;
     padding-top:20px;
-    /* border: solid rgb(0, 0, 0) 2px; */
+    border: solid rgb(0, 0, 0) 2px;
 }
 
 .section1-partie2 .img-type1 img {
@@ -174,22 +174,24 @@ h3 {
 }
 
 .section1-partie2 .p-type1 {
-    width:41vw;
     display: flex;
     align-items: start;
     display: flex;
     align-items: start;
-    /* border:solid rgb(0, 0, 0) 2px; */
-    padding-left: 145px;
+    border:solid rgb(0, 0, 0) 2px;
+    padding-left: 175px;
     margin:0;
+    /* width: 100; */
 }
 
 .section1-partie2 .p-type1 p {
     font-size: 20px;
     font-weight: 400;
     margin:0;
+    width:41vw;
     /* margin: 30px; */
     /* margin-right:160px; */
+    border:solid black 2px;
 }
 
 br {
