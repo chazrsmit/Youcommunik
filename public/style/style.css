@@ -14,7 +14,7 @@ nav {
     border:white 2px solid;
     position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 }
 
@@ -44,4 +44,8 @@ nav div {
 
 .icon img {
     width:fit-content;
+}
+
+.icon p {
+    color:white;
 }
