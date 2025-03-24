@@ -71,7 +71,7 @@ nav div {
 
 header {
     background-color: #334d5c;
-    height:26vh;
+    height:36vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -84,12 +84,12 @@ header {
     display: flex;
     align-items: center;
     justify-content: end;
-    padding-left:130px;
+    /* padding-left:130px; */
     height:100%;
 }
 
 .logo-header img {
-    width:150px;
+    width:185px;
     /* border:white solid 2px; */
 }
 
@@ -111,16 +111,17 @@ header {
 
 h1 {
     font-family: "Ubuntu";
-    font-size: 40px;
+    font-size: 60px;
     color:white;
     font-weight: 400;
     margin-bottom: 0;
     padding-bottom: 0;
+    /* border: white solid 2px; */
 }
 
 h3 {
     font-family: "Ubuntu";
-    font-size: 25px;
+    font-size: 40px;
     font-weight: 400;
     color:white;
     /* border: white solid 2px; */
