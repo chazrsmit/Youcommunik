@@ -22,23 +22,23 @@ nav {
 }
 
 .logo img {
-    width:280px;
+    width:230px;
     padding: 10px;
     position: absolute;
 }
 
 nav div {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-right: 10px;
     /* border: white solid 2px; */
 }
 
 .navbar {
     display: flex;
-    gap: 30px;
+    gap: 15px;
     padding:10px;
-    justify-content: space-evenly;
+    justify-content: space-around;
     /* border:white solid 2px; */
     align-items: center;
 }
@@ -71,33 +71,46 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 60px;
 }
 
 .logo-header {
-    border:white solid 2px;
+    /* border:white solid 2px; */
     flex:1;
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: center;
     padding-left:130px;
+    height:100%;
 }
 
 .logo-header img {
     width:10vw;
-    border:white solid 2px;
+    /* border:white solid 2px; */
 }
 
 .textes-header {
-    border: white solid 2px;
+    /* border: white solid 2px; */
     flex:1.5;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
+ .textes-header div:first-of-type {
+    /* padding-top: 10px; */
+    /* border: white 2px solid; */
+    /* margin-bottom: 0px;
+    padding-bottom: 0px; */
+} 
 
 h1 {
     font-family: "Ubuntu";
     font-size: 40px;
     color:white;
     font-weight: 400;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 h3 {
@@ -105,6 +118,9 @@ h3 {
     font-size: 25px;
     font-weight: 400;
     color:white;
+    /* border: white solid 2px; */
+    padding-top: 0;
+    margin-top: 2%;
 }
 
 /* fin header */
