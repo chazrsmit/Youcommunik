@@ -216,7 +216,7 @@ br {
 }
 
 .section2 div {
-    border: solid black 2px;
+    /* border: solid black 2px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -227,7 +227,7 @@ br {
 }
 
 .section2 div img {
-    border: solid black 2px;
+    /* border: solid black 2px; */
     width: 6.5vw;
 }
 
@@ -282,3 +282,19 @@ br {
 }
 
 /* Fin section 3 */
+
+/* Footer */
+
+footer {
+    background-color: #393a3b;
+}
+
+footer .packs {
+    display: flex;
+}
+
+footer .packs img {
+    width: 4vw;
+}
+
+/* Fin footer */
