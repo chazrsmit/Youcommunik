@@ -71,24 +71,26 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 60px;
 }
 
 .logo-header {
-    /* border:white solid 2px; */
+    border:white solid 2px;
     flex:1;
     display: flex;
     align-items: center;
+    justify-content: end;
     padding-left:130px;
 }
 
 .logo-header img {
     width:10vw;
-    /* border:white solid 2px; */
+    border:white solid 2px;
 }
 
 .textes-header {
     border: white solid 2px;
-    flex:2;
+    flex:1.5;
 }
 
 h1 {
