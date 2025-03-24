@@ -2,7 +2,7 @@
 body {
     margin:0px;
     font-family: "Ubuntu";
-    line-height: 1.6;
+    line-height: 1.7;
 }
 
 /* nav */
@@ -173,18 +173,18 @@ h3 {
 }
 
 .section1-partie2 .p-type1 {
-    width:38vw;
+    width:43vw;
     display: flex;
     align-items: start;
     display: flex;
     align-items: start;
-    /* border:solid rgb(0, 0, 0) 2px; */
+    border:solid rgb(0, 0, 0) 2px;
     padding-left: 145px;
     margin:0;
 }
 
 .section1-partie2 .p-type1 p {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     margin:0;
     /* margin: 30px; */
@@ -195,7 +195,7 @@ br {
     font-size: 200%;
     display: block;
     content: "";
-    margin:10px;
+    margin:15px;
 }
 
 /* fin section 1 */
