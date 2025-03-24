@@ -144,7 +144,7 @@ h3 {
 }
 
 .section1 .titre-type1 h2 {
-    font-size: 60px;
+    font-size: 54px;
     padding-left:65px;
     padding-right:65px;
     background-color: #334d5c;
@@ -179,12 +179,14 @@ h3 {
     display: flex;
     align-items: start;
     /* border:solid rgb(0, 0, 0) 2px; */
-    padding-left: 130px;
+    padding-left: 145px;
+    margin:0;
 }
 
 .section1-partie2 .p-type1 p {
     font-size: 18px;
     font-weight: 400;
+    margin:0;
     /* margin: 30px; */
     /* margin-right:160px; */
 }
