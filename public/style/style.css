@@ -174,7 +174,7 @@ h3 {
 }
 
 .section1-partie2 .p-type1 {
-    width:41.5vw;
+    width:41vw;
     display: flex;
     align-items: start;
     display: flex;
@@ -209,7 +209,7 @@ br {
     justify-content: center;
     /* gap: 6vw; */
     padding-top:40px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     flex-wrap: wrap;
 }
 
@@ -242,6 +242,8 @@ br {
     background-color: #eae3d6;
     display: flex;
     justify-content: center;
+    padding-top:50px;
+    padding-bottom: 30px;
 }
 
 .section3 {
@@ -249,8 +251,6 @@ br {
     display: flex;
     justify-content: center;
     /* gap: 6vw; */
-    padding-top:40px;
-    padding-bottom: 40px;
     max-width: 70vw;
     flex-wrap: wrap;
     /* border: black solid 1px; */
