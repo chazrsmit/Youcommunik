@@ -135,7 +135,7 @@ h3 {
 
 .section1 {
     padding-top:20px;
-    /* height: 55vh; */
+    height: 60vh;
 }
 
 .section1 .titre-type1 {
@@ -165,7 +165,7 @@ h3 {
     align-items: start;
     height: 28vh;
     padding-top:20px;
-    border: solid rgb(0, 0, 0) 2px;
+    /* border: solid rgb(0, 0, 0) 2px; */
 }
 
 .section1-partie2 .img-type1 img {
@@ -178,7 +178,7 @@ h3 {
     align-items: start;
     display: flex;
     align-items: start;
-    border:solid rgb(0, 0, 0) 2px;
+    /* border:solid rgb(0, 0, 0) 2px; */
     padding-left: 130px;
 }
 
@@ -216,7 +216,7 @@ br {
 }
 
 .section2 div img {
-    border: solid black 2px;
+    /* border: solid black 2px; */
     width: 5vw;
 }
 
