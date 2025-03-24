@@ -163,6 +163,7 @@ h3 {
     align-items: start;
     height: 28vh;
     padding-top:20px;
+    /* padding-right: 130px; */
 }
 
 .section1-partie2 .img-type1 img {
@@ -192,3 +193,31 @@ br {
 }
 
 /* fin section 1 */
+
+/* Section 2 */
+
+.section2 {
+    background-color: #eae3d6;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.section2 div {
+    border: solid black 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:5vw;
+}
+
+.section2 div img {
+    border: solid black 2px;
+    width: 5vw;
+}
+
+.section2 div p {
+    border: solid black 2px;
+}
+
+/* Fin section 2 */
