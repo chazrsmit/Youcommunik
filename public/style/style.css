@@ -13,8 +13,8 @@ nav {
 }
 
 .logo {
-    width: 280px;
     /* border:white 2px solid; */
+    width:auto;
     position: relative;
     display: flex;
     justify-content: left;
@@ -22,7 +22,7 @@ nav {
 }
 
 .logo img {
-    width:220px;
+    width:280px;
     padding: 10px;
     position: absolute;
 }
@@ -69,19 +69,21 @@ header {
     background-color: #334d5c;
     height:26vh;
     display: flex;
-}
-
-.logo-header {
-    border:white solid 2px;
-    flex:1;
-    display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.logo-header {
+    /* border:white solid 2px; */
+    flex:1;
+    display: flex;
+    align-items: center;
+    padding-left:130px;
+}
+
 .logo-header img {
     width:10vw;
-    border:white solid 2px;
+    /* border:white solid 2px; */
 }
 
 .textes-header {
@@ -93,11 +95,14 @@ h1 {
     font-family: "Ubuntu";
     font-size: 40px;
     color:white;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 h3 {
     font-family: "Ubuntu";
-
+    font-size: 25px;
+    font-weight: 400;
+    color:white;
 }
+
 /* fin header */
