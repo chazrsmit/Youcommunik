@@ -210,6 +210,7 @@ br {
     gap: 6vw;
     padding-top:40px;
     padding-bottom: 40px;
+    flex-wrap: wrap;
 }
 
 .section2 div {
@@ -232,3 +233,43 @@ br {
 }
 
 /* Fin section 2 */
+
+/* Section 3 */
+
+.presection3 {
+    background-color: #eae3d6;
+    display: flex;
+    justify-content: center;
+}
+
+.section3 {
+    background-color: #eae3d6;
+    display: flex;
+    justify-content: center;
+    gap: 6vw;
+    padding-top:40px;
+    padding-bottom: 40px;
+    max-width: 70vw;
+    flex-wrap: wrap;
+}
+
+.section3 div {
+    /* border: solid black 2px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:10vw;
+    height:18.5vh;
+}
+
+.section3 div img {
+    /* border: solid black 2px; */
+    width: 6.5vw;
+}
+
+.section3 div p {
+    /* border: solid black 2px; */
+    font-size: 18px;
+}
+
+/* Fin section 3 */
