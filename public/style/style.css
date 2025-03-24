@@ -62,7 +62,7 @@ nav div {
 .icon p {
     color:white;
     font-family: "Ubuntu";
-    font-size: 12px;
+    font-size: 14px;
 }
 
 /* fin nav */
@@ -178,7 +178,7 @@ h3 {
     align-items: start;
     display: flex;
     align-items: start;
-    border:solid rgb(0, 0, 0) 2px;
+    /* border:solid rgb(0, 0, 0) 2px; */
     padding-left: 145px;
     margin:0;
 }
