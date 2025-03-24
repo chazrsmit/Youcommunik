@@ -207,7 +207,7 @@ br {
     background-color: #eae3d6;
     display: flex;
     justify-content: center;
-    gap: 6vw;
+    /* gap: 6vw; */
     padding-top:40px;
     padding-bottom: 40px;
     flex-wrap: wrap;
@@ -220,6 +220,8 @@ br {
     align-items: center;
     width:10vw;
     height:18.5vh;
+    margin-left:45px;
+    margin-right: 45px;
 }
 
 .section2 div img {
@@ -246,12 +248,12 @@ br {
     background-color: #eae3d6;
     display: flex;
     justify-content: center;
-    gap: 6vw;
+    /* gap: 6vw; */
     padding-top:40px;
     padding-bottom: 40px;
     max-width: 70vw;
     flex-wrap: wrap;
-    
+    /* border: black solid 1px; */
 }
 
 .section3 div {
@@ -259,8 +261,11 @@ br {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     width:10vw;
     height:18.5vh;
+    margin-left:45px;
+    margin-right: 45px;
 }
 
 .section3 div img {
@@ -271,6 +276,7 @@ br {
 .section3 div p {
     /* border: solid black 2px; */
     font-size: 18px;
+    justify-content: center;
 }
 
 /* Fin section 3 */
