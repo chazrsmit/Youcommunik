@@ -155,10 +155,38 @@ h3 {
     justify-content: center;
 }
 
+.titre3-type1 {
+    display: flex;
+    justify-content: center;
+}
+
+.titre2-type1 {
+    display: flex;
+    justify-content: center;
+}
+
 .section1 .titre-type1 h2 {
     font-size: 60px;
     padding-left:75px;
     padding-right:75px;
+    background-color: #334d5c;
+    color:white;
+    font-weight: 400;
+}
+
+.titre3-type1 h2 {
+    font-size: 60px;
+    padding-left:115px;
+    padding-right:115px;
+    background-color: #334d5c;
+    color:white;
+    font-weight: 400;
+}
+
+.titre2-type1 h2 {
+    font-size: 60px;
+    padding-left:56px;
+    padding-right:56px;
     background-color: #334d5c;
     color:white;
     font-weight: 400;
