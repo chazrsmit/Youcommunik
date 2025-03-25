@@ -4,6 +4,7 @@ body {
     font-family: "Ubuntu";
     line-height: 1.7;
     padding: 0;
+    color:#414547;
 }
 
 html {
@@ -283,7 +284,7 @@ br {
 
 .section3 div p {
     /* border: solid black 2px; */
-    font-size: 18px;
+    font-size: 17px;
     justify-content: center;
 }
 
