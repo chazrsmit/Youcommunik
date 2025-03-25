@@ -1,6 +1,6 @@
 
 body {
-    margin:0px;
+    margin:0;
     font-family: "Ubuntu";
     line-height: 1.7;
 }
@@ -287,15 +287,21 @@ br {
 
 footer {
     background-color: #393a3b;
+    margin:0;
 }
 
 footer .packs {
     display: flex;
     gap:25px;
+    margin:0;
 }
 
 footer .packs img {
     width: 4vw;
+}
+
+footer p {
+    margin:0;
 }
 
 /* Fin footer */
