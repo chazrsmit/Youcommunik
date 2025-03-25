@@ -308,10 +308,11 @@ footer p {
     font-weight: 500;
 }
 
-.footer-icon1 {
-    padding-left: 70px;
-    padding-right: 70px;
+.footer-icons {
+    padding-left: 90px;
+    padding-right: 90px;
     padding-top:30px;
+    padding-bottom: 20px;
 }
 
 /* Fin footer */
