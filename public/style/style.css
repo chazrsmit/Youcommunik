@@ -16,7 +16,7 @@ html {
 
 nav {
     display: flex;
-    height: 17.5vh;
+    height: 18.5vh;
     background-color: #1a1a1d;
     justify-content: space-between;
 }
@@ -31,9 +31,9 @@ nav {
 }
 
 .logo img {
-    width:280px;
+    width:300px;
     padding: 15px;
-    padding-left:20px;
+    padding-left:25px;
     position: absolute;
 }
 
@@ -46,8 +46,9 @@ nav div {
 
 .navbar {
     display: flex;
-    gap: 30px;
+    gap: 20px;
     /* padding:20px; */
+    padding-top:10px;
     justify-content: space-around;
     /* border:white solid 2px; */
     align-items: center;
@@ -64,13 +65,13 @@ nav div {
 }
 
 .icon img {
-    width:4.5vw;
+    width:5.4vw;
 }
 
 .icon p {
     color:white;
     font-family: "Ubuntu";
-    font-size: 14px;
+    font-size: 15px;
 }
 
 /* fin nav */
@@ -156,8 +157,8 @@ h3 {
 
 .section1 .titre-type1 h2 {
     font-size: 60px;
-    padding-left:65px;
-    padding-right:65px;
+    padding-left:75px;
+    padding-right:75px;
     background-color: #334d5c;
     color:white;
     font-weight: 400;
