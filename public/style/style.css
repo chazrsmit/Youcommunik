@@ -337,19 +337,20 @@ footer {
 
 .footer-1 .packs {
     display: flex;
-    gap: 25px;
+    gap: 30px;
     margin:0;
     padding-top:30px;
 }
 
 .footer-1 .packs img {
-    width: 4vw;
+    width: 4.5vw;
 }
 
 .footer-1 p {
     margin:0;
     color:white;
     font-weight: 500;
+    font-size: 18px;
 }
 
 .footer-icons {
