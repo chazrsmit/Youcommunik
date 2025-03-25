@@ -83,7 +83,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:80px;
+    gap:0px;
 }
 
 .logo-header {
@@ -92,7 +92,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: end;
-    padding-right:100px;
+    padding-right:200px;
     height:100%;
 }
 
@@ -119,11 +119,12 @@ header {
 
 h1 {
     font-family: "Ubuntu";
-    font-size: 60px;
+    font-size: 65px;
     color:white;
-    font-weight: 400;
-    margin-bottom: 0;
+    font-weight: 350;
+    margin-bottom: -10px;
     padding-bottom: 0;
+    /* margin-top:-1px; */
     /* border: white solid 2px; */
 }
 
@@ -134,7 +135,7 @@ h3 {
     color:white;
     /* border: white solid 2px; */
     padding-top: 0;
-    margin-top: 0;
+    margin-top:0;
 }
 
 /* fin header */
