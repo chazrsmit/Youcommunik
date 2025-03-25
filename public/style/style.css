@@ -287,12 +287,13 @@ br {
 
 footer {
     background-color: #393a3b;
-    margin:0;
+    display: flex;
+    justify-content: center;
 }
 
 footer .packs {
     display: flex;
-    gap:25px;
+    gap: 25px;
     margin:0;
     padding-top:30px;
 }
@@ -308,7 +309,8 @@ footer p {
 }
 
 .footer-icon1 {
-    padding: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
     padding-top:30px;
 }
 
